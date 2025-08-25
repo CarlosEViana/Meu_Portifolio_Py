@@ -1,0 +1,121 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #0d1117;
+  color: #e6edf3;
+  line-height: 1.6;
+}
+
+/* Container */
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding: 3rem 0;
+  background: linear-gradient(135deg, #0a0f1c, #111a2e);
+  border-bottom: 2px solid #00ffae;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  color: #00ffae;
+  text-shadow: 0 0 8px #00ffae;
+}
+
+header p {
+  font-size: 1.2rem;
+  color: #a8b2d1;
+}
+
+/* Seções */
+section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  border-left: 4px solid #00ffae;
+  padding-left: 0.6rem;
+  color: #00ffae;
+}
+
+/* SOBRE MIM */
+.highlight {
+  color: #00ffae; /* mesmo verde neon */
+  font-weight: bold;
+  text-shadow: 0 0 8px #00ffae;
+}
+
+
+/* Tecnologias */
+.tech-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 1rem;
+}
+
+.tech-grid span {
+  background: #161b22;
+  padding: 0.8rem;
+  border-radius: 10px;
+  text-align: center;
+  border: 1px solid #00ffae55;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.tech-grid span:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 15px #00ffae;
+}
+
+/* Projetos */
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.project-card {
+  background: #161b22;
+  border-radius: 15px;
+  overflow: hidden;
+  border: 1px solid #00ffae55;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project-card img {
+  width: 100%;
+  display: block;
+}
+
+.project-card h3 {
+  padding: 1rem;
+  text-align: center;
+  color: #00ffae;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px #00ffae;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  margin-top: 3rem;
+  border-top: 2px solid #00ffae;
+  font-size: 0.9rem;
+  color: #a8b2d1;
+}
